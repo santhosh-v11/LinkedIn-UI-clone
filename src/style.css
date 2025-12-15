@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 0;
+}
+
+a>span{
+  color: rgb(88, 88, 88);
+}
+a:hover{
+  svg{
+    fill: black;
+  }
+  span{
+    color: black;
+  }
+}
+.right>div:hover{
+  svg{
+    fill: black;
+  }
+  span{
+    color: black;
+  }
+}
