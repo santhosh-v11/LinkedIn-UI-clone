@@ -7,7 +7,7 @@ This project is part of my internship work to learn and improve skills in Tailwi
 ![DesktopView](./images/desktop-preview.png)
 ![MobileView](./images/mobile-preview.png)
 ## Demo
-![live](https://linkedin-ui-clone-chi.vercel.app/)
+![live]([https://linkedin-ui-clone-chi.vercel.app/](https://linkedin-ui-clone-chi.vercel.app/))
 ## Features
 - Grid-based layout for a clean, responsive UI
 - Built entirely with Tailwind CSS utility classes
