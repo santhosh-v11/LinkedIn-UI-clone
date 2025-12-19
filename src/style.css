@@ -7,7 +7,10 @@
   'GRAD' 0,
   'opsz' 0;
 }
-
+.banner{
+  background: url(../images/cover.jpg);
+  background-position: center;
+}
 a>span{
   color: rgb(88, 88, 88);
 }
