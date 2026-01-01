@@ -124,6 +124,7 @@
   </header>
   <main class="max-w-300 mx-auto px-4 pt-20 ">
     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-12 gap-6">
+      <!-- left cards-->
       <aside class="col-span-1  md:col-span-1 lg:col-span-3  ">
         <div class="container sticky top-20">
           <a href="#" class="">
@@ -182,9 +183,11 @@
 
         </div>
       </aside>
+      <!-- main content -->
       <section class="feed md:col-span-2 lg:col-span-6 ">
+        <!-- write newpost -->
         <div class="newpostbox container  md:mt-6 rounded-2xl bg-white">
-          <div class="p-2 flex gap-2">
+          <div class="p-2 pt-3.5 flex gap-2">
             <img src="./images/miniprofile.jpeg" alt="" class="h-12 rounded-full">
             <input type="text" placeholder="Start a Post"
               class="border hover:bg-gray-100 border-gray-500 rounded-full px-5 w-full placeholder:text-black placeholder:font-semibold">
@@ -217,12 +220,13 @@
             </div>
           </div>
         </div>
+
         <div class="relative my-4">
           <hr class=" border-gray-300">
           <span class="absolute right-0 -top-3 bg-[#f3f2ef] px-2 text-sm text-gray-500 cursor-pointer">Sort by: Top
             ▼</span>
         </div>
-
+        <!-- feed -->
         <div class="feedposts p-2 bg-white rounded-lg">
           <div class="post-head flex items-center justify-between ">
             <div class="flex items-center space-x-2">
@@ -264,6 +268,7 @@
           </div>
         </div>
       </section>
+      <!-- right cards -->
       <aside class="right-side hidden lg:block lg:col-span-3 ">
         <div class="container md:mt-6 pb-5 rounded-2xl border border-gray-200 bg-white">
           <div class="head flex items-center space-x-10">
